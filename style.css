@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
   color: yellow;
@@ -13,7 +17,31 @@ img {
   max-width: 100%;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /* CLASSES */
+
+.wrapper {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+@media (min-width: 800px) {
+  .wrapper {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
 
 .img-wrapper {
   display: flex;
@@ -25,17 +53,17 @@ img {
 .arrow-left {
   width: 0;
   height: 0;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
   cursor: pointer;
 }
 
 .arrow-right {
-  border-left: 50px solid yellow;
+  border-left: 30px solid yellow;
   margin-left: 15px;
 }
 
 .arrow-left {
-  border-right: 50px solid yellow;
+  border-right: 30px solid yellow;
   margin-right: 15px;
 }
