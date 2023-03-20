@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  color: yellow;
+  text-align: center;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* CLASSES */
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-right,
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  cursor: pointer;
+}
+
+.arrow-right {
+  border-left: 50px solid yellow;
+  margin-left: 15px;
+}
+
+.arrow-left {
+  border-right: 50px solid yellow;
+  margin-right: 15px;
+}
