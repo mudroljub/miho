@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Enchilada';
+  src: url('Enchilada.TTF') format('truetype');
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,6 +11,7 @@ body {
   background-color: black;
   color: yellow;
   text-align: center;
+  font-family: 'Enchilada';
 }
 
 a {
