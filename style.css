@@ -52,18 +52,18 @@ footer {
 .arrow-left {
   width: 0;
   height: 0;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
+  border-top: 28px solid transparent;
+  border-bottom: 28px solid transparent;
   cursor: pointer;
 }
 
 .arrow-right {
-  border-left: 30px solid yellow;
+  border-left: 52px solid yellow;
   margin-left: 15px;
 }
 
 .arrow-left {
-  border-right: 30px solid yellow;
+  border-right: 52px solid yellow;
   margin-right: 15px;
 }
 
