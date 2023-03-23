@@ -42,13 +42,6 @@ footer {
   padding-right: 12%;
 }
 
-@media (min-width: 800px) {
-  .wrapper {
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-}
-
 .img-wrapper {
   display: flex;
   justify-content: center;
@@ -72,4 +65,24 @@ footer {
 .arrow-left {
   border-right: 30px solid yellow;
   margin-right: 15px;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 1200px) {
+  .wrapper {
+    display: flex;
+    gap: 120px;
+  }
+
+  header,
+  section {
+    width: 50%;
+  }
+
+  nav {
+    flex-direction: column;
+    height: 200px;
+    margin-top: 100px;
+  }
 }
