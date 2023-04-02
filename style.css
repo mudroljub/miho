@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Enchilada';
-  src: url('Enchilada.TTF') format('truetype');
+  src: url('fonts/Enchilada.TTF') format('truetype');
 }
 
 * {
@@ -17,6 +17,10 @@ body {
 a {
   color: yellow;
   text-decoration: none;
+}
+
+a.active {
+  font-weight: bold;
 }
 
 img {
