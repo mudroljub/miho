@@ -8,11 +8,13 @@
 }
 
 body {
+  margin: 0;
   background-color: black;
   color: yellow;
   text-align: center;
   font-family: 'Enchilada';
   font-size: .75em;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;
 }
 
 a {
@@ -45,6 +47,12 @@ footer {
 .wrapper {
   padding-left: 12%;
   padding-right: 12%;
+  margin-top: 2%;
+
+  background-image: url('images/pozadina.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: 80% 80%; */
 }
 
 .img-wrapper {
@@ -75,6 +83,10 @@ footer {
 /* RESPONSIVE */
 
 @media (min-width: 1200px) {
+  body {
+    font-size: 1em;
+  }
+
   .wrapper {
     display: flex;
     gap: 120px;
