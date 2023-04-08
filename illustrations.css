@@ -2,10 +2,9 @@ section {
   gap: 20px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 section img {
   height: 180px;
-  /* margin-bottom: 20px;
-  margin-right: 20px; */
 }
