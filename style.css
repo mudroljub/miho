@@ -48,10 +48,14 @@ footer {
   padding-left: 12%;
   padding-right: 12%;
   margin-top: 2%;
+}
 
+.bg-img {
   background-image: url('images/pozadina-crnobela.jpg');
   background-repeat: no-repeat;
   background-size: 900px;
+  background-position: left bottom;
+  min-height: 120vh;
 }
 
 .img-wrapper {
@@ -89,9 +93,12 @@ footer {
   .wrapper {
     display: flex;
     gap: 120px;
+  }
 
+  .bg-img {
     background-size: auto;
     background-position: center;
+    min-height: unset;
   }
 
   nav,

@@ -1,3 +1,3 @@
 ## TODO
 
-- uvećati sliku na klik
+- dodati avatars page
