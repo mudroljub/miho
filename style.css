@@ -58,6 +58,10 @@ footer {
   min-height: 120vh;
 }
 
+.illustrations .bg-img {
+  background-image: unset;
+}
+
 .img-wrapper {
   display: flex;
   justify-content: center;
@@ -101,15 +105,12 @@ footer {
     min-height: unset;
   }
 
+  .illustrations .bg-img {
+    background-image: url('images/pozadina-crnobela.jpg');
+  }
+  
   nav,
   section {
     width: 50%;
-  }
-
-  nav {
-    flex-direction: column;
-    height: 200px;
-    margin-top: 100px;
-    text-align: left;
   }
 }
