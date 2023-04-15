@@ -2,19 +2,19 @@ const arrowLeft = document.getElementById('arrow-left')
 const arrowRight = document.getElementById('arrow-right')
 const mainImage = document.getElementById('main-image')
 
-comics = ['001', '002', '003', '004', '005', '006', '007', '008', '009']
+const total = 9
 
-let i = 0
+let i = 1
 
 arrowRight.addEventListener('click', () => {
   i++
-  if (i >= comics.length) i = 0
-  mainImage.src=`images/comics/bullo${comics[i]}.jpg`
+  if (i > total) i = 1
+  mainImage.src=`images/comics/bullo00${i}.jpg`
 })
 
 arrowLeft.addEventListener('click', () => {
   i--
-  if (i < 0) i = comics.length - 1
+  if (i < 1) i = total
   console.log(i)
-  mainImage.src = `images/comics/bullo${comics[i]}.jpg`;
+  mainImage.src = `images/comics/bullo00${i}.jpg`;
 });
