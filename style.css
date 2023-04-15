@@ -52,7 +52,10 @@ footer {
   background-image: url('images/pozadina.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size: 80% 80%; */
+}
+
+.about .wrapper {
+  background-image: url('images/pozadina-crnobela.jpg');
 }
 
 .img-wrapper {
@@ -78,11 +81,6 @@ footer {
 #arrow-left {
   border-right: 36px solid yellow;
   margin-right: 15px;
-}
-
-.text-background {
-  background: rgba(0,0,0, .6);
-  padding: 0 10px;
 }
 
 /* RESPONSIVE */
