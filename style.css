@@ -10,7 +10,7 @@
 body {
   margin: 0;
   background-color: black;
-  color: yellow;
+  color: white;
   text-align: center;
   font-family: 'Enchilada';
   font-size: .75em;
@@ -18,7 +18,7 @@ body {
 }
 
 a {
-  color: yellow;
+  color: white;
   text-decoration: none;
 }
 
@@ -53,9 +53,8 @@ footer {
 .bg-img {
   background-image: url('images/pozadina-crnobela.jpg');
   background-repeat: no-repeat;
-  background-size: 900px;
-  background-position: left bottom;
-  min-height: 120vh;
+  background-size: 600px;
+  /* background-position: left top; */
 }
 
 .illustrations .bg-img {
@@ -92,25 +91,5 @@ footer {
 @media (min-width: 1200px) {
   body {
     font-size: 1em;
-  }
-
-  .wrapper {
-    display: flex;
-    gap: 120px;
-  }
-
-  .bg-img {
-    background-size: auto;
-    background-position: center;
-    min-height: unset;
-  }
-
-  .illustrations .bg-img {
-    background-image: url('images/pozadina-crnobela.jpg');
-  }
-  
-  nav,
-  section {
-    width: 50%;
   }
 }
