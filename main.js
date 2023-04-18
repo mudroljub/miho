@@ -15,6 +15,5 @@ arrowRight.addEventListener('click', () => {
 arrowLeft.addEventListener('click', () => {
   i--
   if (i < 1) i = total
-  console.log(i)
   mainImage.src = `images/comics/bullo00${i}.jpg`;
 });
