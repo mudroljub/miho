@@ -50,17 +50,6 @@ footer {
   margin-top: 2%;
 }
 
-.bg-img {
-  background-image: url('images/pozadina-crnobela.jpg');
-  background-repeat: no-repeat;
-  background-size: 600px;
-  /* background-position: left top; */
-}
-
-.illustrations .bg-img {
-  background-image: unset;
-}
-
 .img-wrapper {
   display: flex;
   justify-content: center;

@@ -1,5 +1,3 @@
 ## TODO
 
-- novi logo
-- nova pozadina
-- bela slova
+- metak umesto trouglova
