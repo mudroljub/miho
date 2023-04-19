@@ -68,6 +68,7 @@ footer {
 #arrow-right,
 #arrow-left {
   cursor: pointer;
+  max-width: 120px;
 }
 
 #arrow-right {
