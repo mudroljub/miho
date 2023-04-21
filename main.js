@@ -9,11 +9,11 @@ let i = 1
 arrowRight.addEventListener('click', () => {
   i++
   if (i > total) i = 1
-  mainImage.src=`images/comics/bullo00${i}.jpg`
+  mainImage.src=`images/comics/bullo 00${i}.jpg`
 })
 
 arrowLeft.addEventListener('click', () => {
   i--
   if (i < 1) i = total
-  mainImage.src = `images/comics/bullo00${i}.jpg`;
+  mainImage.src = `images/comics/bullo 00${i}.jpg`;
 });

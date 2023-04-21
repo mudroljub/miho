@@ -68,7 +68,7 @@ footer {
 #arrow-right,
 #arrow-left {
   cursor: pointer;
-  max-width: 120px;
+  width: 140px;
 }
 
 #arrow-right {
@@ -84,5 +84,22 @@ footer {
 @media (min-width: 1200px) {
   body {
     font-size: 1em;
+  }
+
+  .wrapper {
+    display: flex;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  header {
+    width: 50%;
+  }
+
+  section {
+    width: 50%;
   }
 }
