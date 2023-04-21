@@ -14,7 +14,7 @@ body {
   text-align: center;
   font-family: 'Enchilada';
   font-size: .75em;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
 a {
@@ -59,16 +59,10 @@ footer {
   margin-top: 2%;
 }
 
-.img-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #arrow-right,
 #arrow-left {
   cursor: pointer;
-  width: 140px;
+  width: 120px;
 }
 
 #arrow-right {
@@ -96,10 +90,20 @@ footer {
   }
 
   header {
-    width: 50%;
+    width: 40%;
   }
 
   section {
-    width: 50%;
+    width: 60%;
+  }
+
+  .img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #arrow-left {
+    order: -1;
   }
 }

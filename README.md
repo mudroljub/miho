@@ -1,3 +1,1 @@
 ## TODO
-
-- novi meci
