@@ -62,7 +62,8 @@ footer {
 #arrow-right,
 #arrow-left {
   cursor: pointer;
-  width: 120px;
+  width: 80px;
+  margin-top: 10px;
 }
 
 #arrow-right {
@@ -101,6 +102,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  #arrow-right,
+  #arrow-left {
+    width: 120px;
   }
 
   #arrow-left {
