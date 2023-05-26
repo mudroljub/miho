@@ -49,6 +49,7 @@ renderOwner()
 arrowRight.addEventListener('click', nextImage)
 arrowLeft.addEventListener('click', prevImage)
 
+/*
 mainImage.addEventListener('touchstart', e => {
   touchstartX = e.changedTouches[0].screenX
 })
@@ -58,3 +59,4 @@ mainImage.addEventListener('touchend', e => {
   if (touchendX < touchstartX) nextImage()
   if (touchendX > touchstartX) prevImage()
 })
+*/
