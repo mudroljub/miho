@@ -7,6 +7,9 @@ const total = 10
 const audio = new Audio('gun.mp3')
 const owners = {
   1: 'https://twitter.com/ILtroman',
+  2: 'https://twitter.com/ikaanft',
+  3: 'https://exchange.art/cuatooooooooor',
+  4: 'https://twitter.com/f2kus',
 }
 
 let i = 1
