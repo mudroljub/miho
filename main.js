@@ -3,18 +3,22 @@ const arrowRight = document.getElementById('arrow-right')
 const mainImage = document.getElementById('main-image')
 const owner = document.getElementById('owner')
 
-const total = 10
+const total = 15
 const audio = new Audio('gun.mp3')
 const owners = {
   1: 'https://twitter.com/ILtroman',
   2: 'https://twitter.com/ikaanft',
-  3: 'https://exchange.art/cuatooooooooor',
+  3: 'https://twitter.com/Papa_MooMoo',
   4: 'https://twitter.com/f2kus',
+  5: 'https://twitter.com/Alwin_SOL',
+  6: 'https://twitter.com/Gr1nder4l1fe',
+  7: 'https://twitter.com/wgarrettdavis',
+  8: 'https://twitter.com/Trippsoul_NFT',
+  9: 'https://twitter.com/f2kus',
+  10: 'https://twitter.com/Gr1nder4l1fe',
 }
 
 let i = 1
-let touchstartX = 0
-let touchendX = 0
 
 /* FUNCTIONS */
 
@@ -51,15 +55,3 @@ renderOwner()
 
 arrowRight.addEventListener('click', nextImage)
 arrowLeft.addEventListener('click', prevImage)
-
-/*
-mainImage.addEventListener('touchstart', e => {
-  touchstartX = e.changedTouches[0].screenX
-})
-
-mainImage.addEventListener('touchend', e => {
-  touchendX = e.changedTouches[0].screenX
-  if (touchendX < touchstartX) nextImage()
-  if (touchendX > touchstartX) prevImage()
-})
-*/
