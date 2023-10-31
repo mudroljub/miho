@@ -16,6 +16,7 @@ const owners = {
   8: 'https://twitter.com/Trippsoul_NFT',
   9: 'https://twitter.com/f2kus',
   10: 'https://twitter.com/Gr1nder4l1fe',
+  11: 'https://twitter.com/Gr1nder4l1fe',
 }
 
 let i = 1
