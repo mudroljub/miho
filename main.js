@@ -3,7 +3,7 @@ const arrowRight = document.getElementById('arrow-right')
 const mainImage = document.getElementById('main-image')
 const owner = document.getElementById('owner')
 
-const total = 15
+const total = 16
 const audio = new Audio('gun.mp3')
 const owners = {
   1: 'https://twitter.com/ILtroman',
